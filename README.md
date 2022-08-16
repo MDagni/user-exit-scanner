@@ -3,9 +3,9 @@ Abap user-exit scanner
 
 Lists all implemented user-exits in an Abap system.
 
-![2022-08-16_163451](https://user-images.githubusercontent.com/33897441/184892987-2a6a4462-c113-4327-90d0-07e80d1b60f8.png)
+![2022-08-16_170000](https://user-images.githubusercontent.com/33897441/184898719-5cf6868c-3418-4b9a-8827-c7e9f72fff24.png)
 
-![2022-08-16_163516](https://user-images.githubusercontent.com/33897441/184893019-4d58a747-5b4f-40e3-ada7-df8ef6b80b71.png)
+![2022-08-16_170019](https://user-images.githubusercontent.com/33897441/184898742-6e9d53c3-665d-4ef6-96b6-776a2cfaebd3.png)
 
 
 # Copyright
