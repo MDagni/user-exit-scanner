@@ -8,6 +8,8 @@ Lists all implemented user-exits in an Abap system.
 ![2022-08-16_163516](https://user-images.githubusercontent.com/33897441/184893019-4d58a747-5b4f-40e3-ada7-df8ef6b80b71.png)
 
 
+# Copyright
+
 This is a clone of the Abap report "X-it RAY Eye" described in this blog:
 https://blogs.sap.com/2009/05/22/how-many-exit-routines-are-active-in-your-sap-erp-system/
 
