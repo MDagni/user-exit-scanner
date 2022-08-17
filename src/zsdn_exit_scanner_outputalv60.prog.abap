@@ -41,8 +41,6 @@ FORM field TABLES lt_fieldcat1 STRUCTURE lvc_s_fcat
   afield-outputlen     = len.
   afield-datatype      = typ.
 
-  afield-col_opt      = 'X'.
-
   IF typ = 'IC'.    "Internal Use; Icon Format
     afield-icon = abap_true.
     CLEAR afield-datatype.

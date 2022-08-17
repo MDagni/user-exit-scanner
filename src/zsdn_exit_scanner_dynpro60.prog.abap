@@ -296,6 +296,8 @@ ENDMODULE.                 " modify_screen_100  OUTPUT
 *----------------------------------------------------------------------*
 MODULE create_alvs OUTPUT.
 
+  data(ls_layout) = value lvc_s_layo( zebra = 'X' cwidth_opt = 'X' ).
+
   IF append = c_marked.   "c_marked = 'X'
     IF custum_container_append IS INITIAL.
       CREATE OBJECT custum_container_append
@@ -308,6 +310,7 @@ MODULE create_alvs OUTPUT.
       CALL METHOD grid_gt_list_append->set_table_for_first_display
         EXPORTING
           it_toolbar_excluding = gt_excl_button
+          is_layout            = ls_layout
         CHANGING
           it_outtab            = gt_list_append
           it_fieldcatalog      = gt_fieldcat_append.
@@ -337,6 +340,7 @@ MODULE create_alvs OUTPUT.
       CALL METHOD grid_gt_list_badi->set_table_for_first_display
         EXPORTING
           it_toolbar_excluding = gt_excl_button
+          is_layout            = ls_layout
         CHANGING
           it_outtab            = gt_list_badi
           it_fieldcatalog      = gt_fieldcat_badi.
@@ -367,6 +371,7 @@ MODULE create_alvs OUTPUT.
       CALL METHOD grid_gt_list_bte->set_table_for_first_display
         EXPORTING
           it_toolbar_excluding = gt_excl_button
+          is_layout            = ls_layout
         CHANGING
           it_outtab            = gt_list_bte
           it_fieldcatalog      = gt_fieldcat_bte.
@@ -392,10 +397,10 @@ MODULE create_alvs OUTPUT.
         EXPORTING
           i_appl_events = 'X'
           i_parent      = custum_container_ci_incl.
-      CALL METHOD
-        grid_gt_list_ci_incl->set_table_for_first_display
+      CALL METHOD grid_gt_list_ci_incl->set_table_for_first_display
         EXPORTING
           it_toolbar_excluding = gt_excl_button
+          is_layout            = ls_layout
         CHANGING
           it_outtab            = gt_list_ci_incl
           it_fieldcatalog      = gt_fieldcat_ci_incl.
@@ -424,6 +429,7 @@ MODULE create_alvs OUTPUT.
       CALL METHOD grid_gt_list_custex->set_table_for_first_display
         EXPORTING
           it_toolbar_excluding = gt_excl_button
+          is_layout            = ls_layout
         CHANGING
           it_outtab            = gt_list_custex
           it_fieldcatalog      = gt_fieldcat_custex.
@@ -452,6 +458,7 @@ MODULE create_alvs OUTPUT.
       CALL METHOD grid_gt_list_fieldex->set_table_for_first_display
         EXPORTING
           it_toolbar_excluding = gt_excl_button
+          is_layout            = ls_layout
         CHANGING
           it_outtab            = gt_list_fieldex
           it_fieldcatalog      = gt_fieldcat_fieldex.
@@ -481,6 +488,7 @@ MODULE create_alvs OUTPUT.
       CALL METHOD grid_gt_list_userexit->set_table_for_first_display
         EXPORTING
           it_toolbar_excluding = gt_excl_button
+          is_layout            = ls_layout
         CHANGING
           it_outtab            = gt_list_userexit
           it_fieldcatalog      = gt_fieldcat_userexit.
@@ -509,6 +517,7 @@ MODULE create_alvs OUTPUT.
       CALL METHOD grid_gt_list_vofm->set_table_for_first_display
         EXPORTING
           it_toolbar_excluding = gt_excl_button
+          is_layout            = ls_layout
         CHANGING
           it_outtab            = gt_list_vofm
           it_fieldcatalog      = gt_fieldcat_vofm.
@@ -537,6 +546,7 @@ MODULE create_alvs OUTPUT.
       CALL METHOD grid_gt_list_subst->set_table_for_first_display
         EXPORTING
           it_toolbar_excluding = gt_excl_button
+          is_layout            = ls_layout
         CHANGING
           it_outtab            = gt_list_subst
           it_fieldcatalog      = gt_fieldcat_subst.
@@ -565,6 +575,7 @@ MODULE create_alvs OUTPUT.
       CALL METHOD grid_gt_list_valid->set_table_for_first_display
         EXPORTING
           it_toolbar_excluding = gt_excl_button
+          is_layout            = ls_layout
         CHANGING
           it_outtab            = gt_list_valid
           it_fieldcatalog      = gt_fieldcat_valid.
@@ -593,6 +604,7 @@ MODULE create_alvs OUTPUT.
       CALL METHOD grid_gt_list_screxit->set_table_for_first_display
         EXPORTING
           it_toolbar_excluding = gt_excl_button
+          is_layout            = ls_layout
         CHANGING
           it_outtab            = gt_list_screxit
           it_fieldcatalog      = gt_fieldcat_screxit.
@@ -621,6 +633,7 @@ MODULE create_alvs OUTPUT.
       CALL METHOD grid_gt_list_menuex->set_table_for_first_display
         EXPORTING
           it_toolbar_excluding = gt_excl_button
+          is_layout            = ls_layout
         CHANGING
           it_outtab            = gt_list_menuex
           it_fieldcatalog      = gt_fieldcat_menuex.
@@ -649,6 +662,7 @@ MODULE create_alvs OUTPUT.
       CALL METHOD grid_gt_list_modwrd->set_table_for_first_display
         EXPORTING
           it_toolbar_excluding = gt_excl_button
+          is_layout            = ls_layout
         CHANGING
           it_outtab            = gt_list_modwrd
           it_fieldcatalog      = gt_fieldcat_modwrd.
@@ -677,6 +691,7 @@ MODULE create_alvs OUTPUT.
       CALL METHOD grid_gt_list_hookimpl->set_table_for_first_display
         EXPORTING
           it_toolbar_excluding = gt_excl_button
+          is_layout            = ls_layout
         CHANGING
           it_outtab            = gt_list_hookimpl
           it_fieldcatalog      = gt_fieldcat_hookimpl.
@@ -706,6 +721,7 @@ MODULE create_alvs OUTPUT.
       CALL METHOD grid_gt_list_fugrenh->set_table_for_first_display
         EXPORTING
           it_toolbar_excluding = gt_excl_button
+          is_layout            = ls_layout
         CHANGING
           it_outtab            = gt_list_fugrenh
           it_fieldcatalog      = gt_fieldcat_fugrenh.
@@ -735,6 +751,7 @@ MODULE create_alvs OUTPUT.
       CALL METHOD grid_gt_list_clasenh->set_table_for_first_display
         EXPORTING
           it_toolbar_excluding = gt_excl_button
+          is_layout            = ls_layout
         CHANGING
           it_outtab            = gt_list_clasenh
           it_fieldcatalog      = gt_fieldcat_clasenh.
@@ -764,6 +781,7 @@ MODULE create_alvs OUTPUT.
       CALL METHOD grid_gt_list_badiimpl->set_table_for_first_display
         EXPORTING
           it_toolbar_excluding = gt_excl_button
+          is_layout            = ls_layout
         CHANGING
           it_outtab            = gt_list_badiimpl
           it_fieldcatalog      = gt_fieldcat_badiimpl.

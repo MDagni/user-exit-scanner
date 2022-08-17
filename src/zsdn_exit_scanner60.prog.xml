@@ -416,6 +416,10 @@
        <COLUMN>001</COLUMN>
        <LENGTH>170</LENGTH>
        <HEIGHT>038</HEIGHT>
+       <C_RESIZE_V>X</C_RESIZE_V>
+       <C_RESIZE_H>X</C_RESIZE_H>
+       <C_LINE_MIN>005</C_LINE_MIN>
+       <C_COLN_MIN>015</C_COLN_MIN>
       </RPY_DYCATT>
      </CONTAINERS>
      <FIELDS>
@@ -503,6 +507,10 @@
        <COLUMN>001</COLUMN>
        <LENGTH>170</LENGTH>
        <HEIGHT>038</HEIGHT>
+       <C_RESIZE_V>X</C_RESIZE_V>
+       <C_RESIZE_H>X</C_RESIZE_H>
+       <C_LINE_MIN>005</C_LINE_MIN>
+       <C_COLN_MIN>015</C_COLN_MIN>
       </RPY_DYCATT>
      </CONTAINERS>
      <FIELDS>
@@ -590,6 +598,10 @@
        <COLUMN>001</COLUMN>
        <LENGTH>170</LENGTH>
        <HEIGHT>038</HEIGHT>
+       <C_RESIZE_V>X</C_RESIZE_V>
+       <C_RESIZE_H>X</C_RESIZE_H>
+       <C_LINE_MIN>005</C_LINE_MIN>
+       <C_COLN_MIN>015</C_COLN_MIN>
       </RPY_DYCATT>
      </CONTAINERS>
      <FIELDS>
@@ -677,6 +689,10 @@
        <COLUMN>001</COLUMN>
        <LENGTH>170</LENGTH>
        <HEIGHT>038</HEIGHT>
+       <C_RESIZE_V>X</C_RESIZE_V>
+       <C_RESIZE_H>X</C_RESIZE_H>
+       <C_LINE_MIN>005</C_LINE_MIN>
+       <C_COLN_MIN>015</C_COLN_MIN>
       </RPY_DYCATT>
      </CONTAINERS>
      <FIELDS>
@@ -764,6 +780,10 @@
        <COLUMN>001</COLUMN>
        <LENGTH>170</LENGTH>
        <HEIGHT>038</HEIGHT>
+       <C_RESIZE_V>X</C_RESIZE_V>
+       <C_RESIZE_H>X</C_RESIZE_H>
+       <C_LINE_MIN>005</C_LINE_MIN>
+       <C_COLN_MIN>015</C_COLN_MIN>
       </RPY_DYCATT>
      </CONTAINERS>
      <FIELDS>
@@ -851,6 +871,10 @@
        <COLUMN>001</COLUMN>
        <LENGTH>170</LENGTH>
        <HEIGHT>038</HEIGHT>
+       <C_RESIZE_V>X</C_RESIZE_V>
+       <C_RESIZE_H>X</C_RESIZE_H>
+       <C_LINE_MIN>005</C_LINE_MIN>
+       <C_COLN_MIN>015</C_COLN_MIN>
       </RPY_DYCATT>
      </CONTAINERS>
      <FIELDS>
@@ -938,6 +962,10 @@
        <COLUMN>001</COLUMN>
        <LENGTH>170</LENGTH>
        <HEIGHT>038</HEIGHT>
+       <C_RESIZE_V>X</C_RESIZE_V>
+       <C_RESIZE_H>X</C_RESIZE_H>
+       <C_LINE_MIN>005</C_LINE_MIN>
+       <C_COLN_MIN>015</C_COLN_MIN>
       </RPY_DYCATT>
      </CONTAINERS>
      <FIELDS>
@@ -1025,6 +1053,10 @@
        <COLUMN>001</COLUMN>
        <LENGTH>170</LENGTH>
        <HEIGHT>038</HEIGHT>
+       <C_RESIZE_V>X</C_RESIZE_V>
+       <C_RESIZE_H>X</C_RESIZE_H>
+       <C_LINE_MIN>005</C_LINE_MIN>
+       <C_COLN_MIN>015</C_COLN_MIN>
       </RPY_DYCATT>
      </CONTAINERS>
      <FIELDS>
@@ -1112,6 +1144,10 @@
        <COLUMN>001</COLUMN>
        <LENGTH>170</LENGTH>
        <HEIGHT>038</HEIGHT>
+       <C_RESIZE_V>X</C_RESIZE_V>
+       <C_RESIZE_H>X</C_RESIZE_H>
+       <C_LINE_MIN>005</C_LINE_MIN>
+       <C_COLN_MIN>015</C_COLN_MIN>
       </RPY_DYCATT>
      </CONTAINERS>
      <FIELDS>
@@ -1199,6 +1235,10 @@
        <COLUMN>001</COLUMN>
        <LENGTH>170</LENGTH>
        <HEIGHT>038</HEIGHT>
+       <C_RESIZE_V>X</C_RESIZE_V>
+       <C_RESIZE_H>X</C_RESIZE_H>
+       <C_LINE_MIN>005</C_LINE_MIN>
+       <C_COLN_MIN>015</C_COLN_MIN>
       </RPY_DYCATT>
      </CONTAINERS>
      <FIELDS>
@@ -1286,6 +1326,10 @@
        <COLUMN>001</COLUMN>
        <LENGTH>170</LENGTH>
        <HEIGHT>038</HEIGHT>
+       <C_RESIZE_V>X</C_RESIZE_V>
+       <C_RESIZE_H>X</C_RESIZE_H>
+       <C_LINE_MIN>005</C_LINE_MIN>
+       <C_COLN_MIN>015</C_COLN_MIN>
       </RPY_DYCATT>
      </CONTAINERS>
      <FIELDS>
@@ -1373,6 +1417,10 @@
        <COLUMN>001</COLUMN>
        <LENGTH>170</LENGTH>
        <HEIGHT>038</HEIGHT>
+       <C_RESIZE_V>X</C_RESIZE_V>
+       <C_RESIZE_H>X</C_RESIZE_H>
+       <C_LINE_MIN>005</C_LINE_MIN>
+       <C_COLN_MIN>015</C_COLN_MIN>
       </RPY_DYCATT>
      </CONTAINERS>
      <FIELDS>
@@ -1460,6 +1508,10 @@
        <COLUMN>001</COLUMN>
        <LENGTH>170</LENGTH>
        <HEIGHT>038</HEIGHT>
+       <C_RESIZE_V>X</C_RESIZE_V>
+       <C_RESIZE_H>X</C_RESIZE_H>
+       <C_LINE_MIN>005</C_LINE_MIN>
+       <C_COLN_MIN>015</C_COLN_MIN>
       </RPY_DYCATT>
      </CONTAINERS>
      <FIELDS>
@@ -1547,6 +1599,10 @@
        <COLUMN>001</COLUMN>
        <LENGTH>170</LENGTH>
        <HEIGHT>038</HEIGHT>
+       <C_RESIZE_V>X</C_RESIZE_V>
+       <C_RESIZE_H>X</C_RESIZE_H>
+       <C_LINE_MIN>005</C_LINE_MIN>
+       <C_COLN_MIN>015</C_COLN_MIN>
       </RPY_DYCATT>
      </CONTAINERS>
      <FIELDS>
@@ -1634,6 +1690,10 @@
        <COLUMN>001</COLUMN>
        <LENGTH>170</LENGTH>
        <HEIGHT>038</HEIGHT>
+       <C_RESIZE_V>X</C_RESIZE_V>
+       <C_RESIZE_H>X</C_RESIZE_H>
+       <C_LINE_MIN>005</C_LINE_MIN>
+       <C_COLN_MIN>015</C_COLN_MIN>
       </RPY_DYCATT>
      </CONTAINERS>
      <FIELDS>
@@ -1721,6 +1781,10 @@
        <COLUMN>001</COLUMN>
        <LENGTH>170</LENGTH>
        <HEIGHT>038</HEIGHT>
+       <C_RESIZE_V>X</C_RESIZE_V>
+       <C_RESIZE_H>X</C_RESIZE_H>
+       <C_LINE_MIN>005</C_LINE_MIN>
+       <C_COLN_MIN>015</C_COLN_MIN>
       </RPY_DYCATT>
      </CONTAINERS>
      <FIELDS>
@@ -1808,6 +1872,10 @@
        <COLUMN>001</COLUMN>
        <LENGTH>170</LENGTH>
        <HEIGHT>038</HEIGHT>
+       <C_RESIZE_V>X</C_RESIZE_V>
+       <C_RESIZE_H>X</C_RESIZE_H>
+       <C_LINE_MIN>005</C_LINE_MIN>
+       <C_COLN_MIN>015</C_COLN_MIN>
       </RPY_DYCATT>
      </CONTAINERS>
      <FIELDS>
