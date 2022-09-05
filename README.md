@@ -16,4 +16,4 @@ https://blogs.sap.com/2009/05/22/how-many-exit-routines-are-active-in-your-sap-e
 Source code downloaded from this repository:
 https://github.com/OlivieriAndrea/ABAPexitrayeye
 
-All copyright belongs to [@OlivieriAndrea](https://github.com/OlivieriAndrea)
+All copyright belongs to [@andrea.olivieri](https://people.sap.com/andrea.olivieri)
